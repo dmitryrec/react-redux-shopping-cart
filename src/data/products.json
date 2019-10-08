@@ -1,0 +1,41 @@
+{
+    "products":[
+        {
+            "id": "1",
+            "name": "Name1",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit Tempore qui ex perferendis accusantium veritatis.Doloribus ea suscipit nesciunt eius consequuntur rerum! Maiores eos recusandae velit non amet nulla fugit doloremque!",
+            "keywords": ["word1", "word", "word2"],
+            "image": "https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/rocket-256.png",
+            "age": [
+                "0",
+                "+"
+            ],
+            "price": 20
+        },
+        {
+            "id": "2",
+            "name": "Name2",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit Tempore qui ex perferendis accusantium veritatis.Doloribus ea suscipit nesciunt eius consequuntur rerum! Maiores eos recusandae velit non amet nulla fugit doloremque!",
+            "keywords": ["word", "word3", "word2"],
+            "image": "https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/spaceshuttle-128.png",
+            "age": [
+                "0",
+                "+"
+            ],
+            "price": 30
+        },
+        {
+            "id": "3",
+            "name": "Name3",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit Tempore qui ex perferendis accusantium veritatis.Doloribus ea suscipit nesciunt eius consequuntur rerum! Maiores eos recusandae velit non amet nulla fugit doloremque!",
+            "keywords": ["word132", "word3", "word23"],
+            "image": "https://cdn2.iconfinder.com/data/icons/business-345/512/Rocket-128.png",
+            "age": [
+                "0",
+                "+"
+            ],
+            "price": 10
+        }
+    ]
+}
+
