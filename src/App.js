@@ -11,7 +11,7 @@ const Navigation = (props) => <nav>
 export default class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="container">
         <Navigation/>
         <Router/>
       </div>

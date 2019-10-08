@@ -5,7 +5,10 @@ const ProductListing = ({products}) => {
     return (
         <div>
             {
-                products.map(product=><ProductListItem product={product}/>
+                products.map(product=>
+                <div key={Math.random()}>
+                    <ProductListItem product={product}/>
+                </div>
             )
             }
         </div>
@@ -13,4 +16,3 @@ const ProductListing = ({products}) => {
 }
 
 export default ProductListing;
-{}
