@@ -8,7 +8,7 @@ const ProductListing = (props) => {
         <div className="productList">
             {
                 props.products.map(product =>
-                    <div key={Math.random()}>
+                    <div key={product.id}>
                         <ProductListItem
                             product={product}
                             addToCart={props.addoToCart}

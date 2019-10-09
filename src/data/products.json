@@ -35,6 +35,18 @@
                 "+"
             ],
             "price": 10
+        },
+        {
+            "id": "4",
+            "name": "Name4",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit Tempore qui ex perferendis accusantium veritatis.Doloribus ea suscipit nesciunt eius consequuntur rerum! Maiores eos recusandae velit non amet nulla fugit doloremque!",
+            "keywords": ["word132", "word3", "word23"],
+            "image": "https://cdn1.iconfinder.com/data/icons/dairy-products-line-nutrition-goods/436/goat_milk-128.png",
+            "age": [
+                "0",
+                "+"
+            ],
+            "price": 15
         }
     ]
 }
