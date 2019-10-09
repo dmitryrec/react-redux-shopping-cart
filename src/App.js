@@ -5,8 +5,8 @@ import Router from './Router';
 
 const Navigation = (props) => <nav>
   <div className="nav"> 
-    <div><NavLink to='/'>Home</NavLink></div>
-    <div><NavLink to='/cart'>Cart</NavLink></div>
+    <div className="buttonNav"><NavLink to='/'>Home</NavLink></div>
+    <div className="buttonNav"><NavLink to='/cart'>Cart</NavLink></div>
   </div>
   
 </nav>
