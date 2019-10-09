@@ -3,10 +3,11 @@ import React from 'react'
 export default function ProductListItem(props) {
     const thisItemInCart = props.cart.filter(item => item.id === props.product.id)[0]
     return (
-        <div>
+        <div className="productListItem">
             <h3>{props.product.name}</h3>
             <img
                 height={100}
+                width={100}
                 title={props.product.name}
                 src={`${props.product.image}`}
                 alt="product"
