@@ -5,10 +5,10 @@ import data from '../data/products.json';
 export default class Homepage extends Component {
     render() {
         return (
-            <Fragment>
+            <div>
                 <h2>Home</h2>
                 <ProductListing products={data.products}/>
-            </Fragment>
+            </div>
 
         )
     }

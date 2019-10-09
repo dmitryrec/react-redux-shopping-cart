@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default function ProductListItem(props) {
+    const thisItemInCart = props.cart.filter(item => item.id === props.product.id)[0]
     return (
         <div>
             <h3>{props.product.name}</h3>
@@ -12,7 +13,14 @@ export default function ProductListItem(props) {
             />
             <div>{props.product.description}</div>
             <div>$ {props.product.price}</div>
-            <div><button>add to cart</button></div>
+            <div>
+                <button 
+                   onClick={()=>props.addToCart(props.product)}>
+                    add to cart ({
+                        (thisItemInCart && thisItemInCart.quantity) || 0
+                    })
+                </button>
+            </div>
         </div>
     )
 }
