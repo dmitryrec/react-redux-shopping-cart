@@ -5,7 +5,7 @@ import { cartItemsWithQuantities  } from '../cart'
 
 const ProductListing = (props) => {
     return (
-        <div>
+        <div className="productList">
             {
                 props.products.map(product =>
                     <div key={Math.random()}>
